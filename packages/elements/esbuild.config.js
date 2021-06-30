@@ -10,7 +10,6 @@ esbuild
     platform: 'browser',
     sourcemap: true,
     target: 'es6',
-    format: "cjs"
     plugins: [nodeExternalsPlugin()],
   })
   .catch(() => process.exit(1))
