@@ -7,9 +7,10 @@ esbuild
     outfile: 'dist/index.js',
     bundle: true,
     minify: true,
-    platform: 'node',
+    platform: 'browser',
     sourcemap: true,
-    target: 'node14',
+    target: 'es6',
+    format: "cjs"
     plugins: [nodeExternalsPlugin()],
   })
   .catch(() => process.exit(1))

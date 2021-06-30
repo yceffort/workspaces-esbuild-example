@@ -2,7 +2,7 @@
   "name": "@yceffort/elements",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "devDependencies": {
     "@types/styled-components": "^5.1.10"
   },
