@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "eslint-config-yceffort/typescript"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  },
+  "env": {
+    "jest": true
+  }
+}

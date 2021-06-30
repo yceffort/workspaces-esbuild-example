@@ -1,0 +1,20 @@
+{
+  "name": "@yceffort/utils",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm publish",
+    "test": "jest",
+    "build": "npm run build:ts && npm run build:declaration",
+    "build:ts": "node esbuild.config.js",
+    "build:declaration": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-jest": "^27.0.3",
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6"
+  },
+  "description": ""
+}

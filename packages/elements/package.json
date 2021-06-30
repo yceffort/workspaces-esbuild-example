@@ -1,0 +1,23 @@
+{
+  "name": "@yceffort/elements",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/styled-components": "^5.1.10"
+  },
+  "peerDependencies": {
+      "react": "*",
+      "react-dom": "*",
+      "styled-components": "~5.3.0"
+  },
+  "scripts": {
+    "deploy": "npm publish",
+    "build": "npm run build:ts && npm run build:declaration",
+    "build:ts": "node esbuild.config.js",
+    "build:declaration": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

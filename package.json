@@ -1,0 +1,25 @@
+{
+  "name": "@yceffort/monorepo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:all": "npm run build --workspaces",
+    "deploy:all": "npm run deploy --workspaces",
+    "lint": "eslint '**/*.{js,ts,tsx}'",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier '**/*.{json,yaml,md}' --check",
+    "prettier:fix": "prettier '**/*.{json,yaml,md}' --write"
+  },
+  "author": "yceffort",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.12.12",
+    "esbuild-node-externals": "^1.3.0",
+    "eslint-config-yceffort": "0.0.5",
+    "typescript": "^4.3.4"
+  },
+  "workspaces": [
+    "./packages/*"
+  ]
+}
