@@ -8,6 +8,7 @@ esbuild
     bundle: true,
     minify: true,
     platform: 'browser',
+    format: 'esm',
     sourcemap: true,
     target: 'es6',
     plugins: [nodeExternalsPlugin()],
