@@ -1,5 +1,5 @@
 {
-  "name": "@yceffort/elements",
+  "name": "test-esbuild-elements-yceffort",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
